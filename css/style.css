@@ -1,0 +1,60 @@
+/*My custom stylesheet */
+
+/* Color variables */
+
+:root{
+    --color-primary: #4A86F7!important;
+    --color-secondary: #244BB1!important;
+    --color-acent: #193F6A!important;
+    --color-bg: #F5F7FA!important;
+    /* --font-poppins: 'Poppins', serif; */
+    --font-Inter: 'Inter', sans-serif;
+
+}
+
+/* Custom Classes */
+
+.bg-primary{
+    background-color: var(--color-primary);
+}
+
+.color-primary{
+    color: var(--color-primary);
+}
+
+.bg-secondary{
+    background-color: var(--color-secondary);
+}
+
+.color-secondary{
+    color: var(--color-secondary);
+}
+
+.bg-acent{
+    color: var(--color-acent);
+}
+
+
+/* Terms and Conditions Style */
+#Terms-and-conditions{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #FFFFFF;
+    text-align: left;
+    font-family: var(--font-Inter);   
+}
+
+#Terms-and-conditions h1{
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+#Terms-and-conditions h6{
+    font-weight: 600;
+}
+
+#Terms-and-conditions p{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
